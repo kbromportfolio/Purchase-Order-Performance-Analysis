@@ -23,3 +23,14 @@ The detailed **Project Proposal**, **Project Timeline**, and **Project Managemen
 
 **Status:** Stage 1 Completed
 
+## Stage 2 – Dataset Preparation
+
+I completed the dataset preparation stage using the 777-row purchase-order dataset.
+
+The dataset contains 11 original fields covering purchase orders, suppliers, dates, categories, order status, quantity, pricing, defective units, and compliance.
+
+I preserved the original data as raw data, imported the dataset into Excel, checked the structure and column headings, and prepared the working file for the next stage.
+
+**Status:** Completed
+
+**Next Stage:** Data Cleaning
