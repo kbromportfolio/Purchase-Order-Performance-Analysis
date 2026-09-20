@@ -121,5 +121,21 @@ The analysis tables use Excel formulas linked to the source dataset, so the resu
 
 **Next Stage:** PivotTable Analysis
 
+## Stage 7 – PivotTable Analysis
+
+PivotTable and PivotChart analysis was completed in Microsoft Excel using the calculated fields from Stage 5 and the cleaned procurement dataset.
+
+The `PivotTable Analysis` sheet contains five native PivotTables and five PivotCharts covering:
+
+- Supplier performance and spend
+- Category performance and savings
+- Order status and spend
+- Supplier cost comparison
+- Category quality and compliance
+
+The PivotTables use the 777 purchase-order records as their source and can be refreshed in Excel when the source data changes.
+
+**Status:** Stage 7 Completed
+
 
 
