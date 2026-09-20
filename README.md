@@ -60,3 +60,16 @@ Completed Stage 3 data cleaning using Excel.
 - Filled missing Defective_Units values with 0
 - Preserved the original raw dataset
 
+## Stage 4 – Data Validation
+
+Data validation was completed in Excel using formulas, filters, and duplicate checks. The checks cover:
+
+- `PO_ID` format and duplicate IDs
+- `Order_Date` and `Delivery_Date` format and chronology
+- Positive integer `Quantity`
+- Positive `Unit_Price` and `Negotiated_Price`, with negotiated price not above unit price
+- Non-negative integer `Defective_Units`, not above `Quantity`
+- `Compliance` values restricted to `Yes` or `No`
+
+The validation checked 777 rows and confirmed 777 unique PO IDs. All requested format and value checks passed except for one chronology issue: `PO-00101` has `Order_Date` `27/02/2022` and `Delivery_Date` `22/02/2022`. This record should be reviewed before the dataset is treated as fully validated.
+
