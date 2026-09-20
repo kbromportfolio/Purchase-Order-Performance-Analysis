@@ -94,3 +94,32 @@ The completed Excel workbook is saved as `Excel/Procurement KPI Analysis Dataset
 
 **Next Stage:** Supplier and Category Analysis
 
+## Stage 6 – Supplier and Category Analysis
+
+Supplier and category analysis was completed in Microsoft Excel using the calculated fields from Stage 5.
+
+Two analysis sheets were added to the workbook:
+
+- `Supplier Analysis` summarises each supplier.
+- `Category Analysis` summarises each item category.
+
+Both sheets analyse:
+
+- Purchase-order count
+- Quantity ordered
+- Original spend
+- Negotiated spend
+- Potential savings
+- Defective units
+- Defect rate %
+- Compliant purchase orders
+- Compliance rate %
+
+The analysis tables use Excel formulas linked to the source dataset, so the results update when the source data changes.
+
+**Status:** Stage 6 Completed
+
+**Next Stage:** PivotTable Analysis
+
+
+
