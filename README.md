@@ -137,5 +137,21 @@ The PivotTables use the 777 purchase-order records as their source and can be re
 
 **Status:** Stage 7 Completed
 
+## Stage 8 – KPI Development
+
+Core procurement and supplier-performance KPIs were calculated in Microsoft Excel using formulas linked to the source dataset.
+
+The `KPI Development` sheet includes:
+
+- Total purchase orders and quantity ordered
+- Original spend, negotiated spend, potential savings, and savings rate
+- Average discount and average delivery days
+- Overall defect rate, compliance rate, and delivered-order rate
+- Supplier-level purchase orders, spend, savings rate, delivery days, defect rate, and compliance rate
+
+The workbook is configured to recalculate the KPI formulas when the source data changes.
+
+**Status:** Stage 8 Completed
+
 
 

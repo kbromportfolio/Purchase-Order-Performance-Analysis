@@ -1,0 +1,6 @@
+# Microsoft Office temporary lock files
+~$*
+
+# Office recovery and temporary files
+*.tmp
+*.bak
