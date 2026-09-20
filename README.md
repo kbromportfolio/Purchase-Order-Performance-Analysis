@@ -73,3 +73,24 @@ Data validation was completed in Excel using formulas, filters, and duplicate ch
 
 The validation checked 777 rows and confirmed 777 unique PO IDs. All requested format and value checks passed except for one chronology issue: `PO-00101` has `Order_Date` `27/02/2022` and `Delivery_Date` `22/02/2022`. This record should be reviewed before the dataset is treated as fully validated.
 
+## Stage 5 – Formula Development
+
+Formula development was completed in Microsoft Excel using the cleaned and validated procurement dataset.
+
+The following calculated fields were added to the workbook:
+
+- `Original Cost` = `Quantity × Unit_Price`
+- `Negotiated Cost` = `Quantity × Negotiated_Price`
+- `Potential Savings` = `Original Cost − Negotiated Cost`
+- `Discount %` = `Potential Savings ÷ Original Cost`
+- `Defect Rate %` = `Defective_Units ÷ Quantity`
+- `Delivery Days` = `Delivery_Date − Order_Date`
+
+The formulas were applied to all 777 purchase-order records. Currency, percentage, and whole-number formats were applied to the calculated fields for clear analysis.
+
+The completed Excel workbook is saved as `Excel/Procurement KPI Analysis Dataset.xlsx`.
+
+**Status:** Stage 5 Completed
+
+**Next Stage:** Supplier and Category Analysis
+
