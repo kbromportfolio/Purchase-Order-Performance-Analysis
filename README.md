@@ -206,5 +206,68 @@ The analysis of 777 purchase orders highlighted the following findings. Potentia
 
 **Next Stage:** Documentation and Final Review
 
+## Stage 11 – Documentation and User Guide
+
+### Methodology
+
+1. Imported and preserved the raw purchase-order dataset.
+2. Cleaned dates, text categories, numeric fields, missing values, and duplicate IDs in Excel.
+3. Validated IDs, dates, quantities, prices, defects, and compliance values.
+4. Added calculated cost, savings, discount, defect-rate, and delivery-duration fields.
+5. Built supplier, category, KPI, PivotTable, and PivotChart analyses.
+6. Created the interactive dashboard and interpreted the main findings.
+
+### Data dictionary
+
+| Field | Description |
+|---|---|
+| `PO_ID` | Unique purchase-order identifier. |
+| `Supplier` | Supplier associated with the purchase order. |
+| `Order_Date` | Date the purchase order was placed. |
+| `Delivery_Date` | Recorded or imputed delivery date. |
+| `Item_Category` | Category of goods ordered. |
+| `Order_Status` | Cancelled, Delivered, Partially Delivered, or Pending. |
+| `Quantity` | Number of units ordered. |
+| `Unit_Price` | Original price per unit. |
+| `Negotiated_Price` | Negotiated price per unit. |
+| `Defective_Units` | Number of defective units recorded. |
+| `Compliance` | Whether the order is compliant: Yes or No. |
+| `Original Cost` | `Quantity × Unit_Price`. |
+| `Negotiated Cost` | `Quantity × Negotiated_Price`. |
+| `Potential Savings` | `Original Cost − Negotiated Cost`; an opportunity estimate. |
+| `Discount %` | `Potential Savings ÷ Original Cost`. |
+| `Defect Rate %` | `Defective_Units ÷ Quantity`. |
+| `Delivery Days` | `Delivery_Date − Order_Date`. |
+
+### Assumptions
+
+* Each row represents one purchase order, and `PO_ID` is unique.
+* Missing delivery dates were estimated using the median delivery lag for the relevant order status.
+* Missing defective-unit values were treated as zero for this analysis.
+* Potential savings are based on the difference between original and negotiated prices and are not confirmed realised savings.
+* Supplier and category performance is assessed using the available cost, quality, compliance, status, and delivery-duration measures.
+
+### Limitations
+
+* The dataset does not include promised delivery dates, so late-delivery performance cannot be measured.
+* It does not include invoices, contracts, payment terms, transport costs, or confirmed realised savings.
+* One date chronology issue remains for `PO-00101` and requires review.
+* The 2024 sample contains only two orders and is not sufficient for a reliable time trend.
+* The dataset is a sample and should not be treated as evidence about a real organisation without further validation.
+
+### Dashboard user guide
+
+1. Open `Excel/Procurement KPI Analysis Dataset.xlsx` and select the `Dashboard` sheet.
+2. Use the dropdowns for Supplier, Category, Order Status, and Compliance to filter the dashboard.
+3. Review the KPI cards for order count, negotiated spend, potential savings, savings rate, and compliance rate.
+4. Use the charts to compare supplier spend, category quality and compliance, and order-status mix.
+5. Select `All` values to return to the overall view.
+6. Use the analysis sheets for detailed supplier, category, KPI, and PivotTable results.
+7. Refresh PivotTables in Excel after updating the source data, then review the dashboard again.
+
+**Status:** Completed
+
+**Project Status:** Documentation and Final Review Completed
+
 
 
