@@ -269,5 +269,27 @@ The analysis of 777 purchase orders highlighted the following findings. Potentia
 
 **Project Status:** Documentation and Final Review Completed
 
+## GitHub Publication
+
+This repository is organised for portfolio review and contains the following deliverables:
+
+| Folder or file | Contents |
+|---|---|
+| [`Excel/`](Excel/) | Completed Excel workbook with the interactive dashboard, formulas, analysis sheets, PivotTables, and PivotCharts. |
+| [`data/Raw_Data/`](data/Raw_Data/) | Original, unchanged purchase-order dataset. |
+| [`data/cleaned/`](data/cleaned/) | Cleaned dataset used for the analysis. |
+| [`documentation/`](documentation/) | Project proposal, timeline, management tracker, methodology, assumptions, limitations, and user guide. |
+| [`screenshots/`](screenshots/) | Dashboard preview images for portfolio presentation. |
+| [`README.md`](README.md) | Project overview, process, findings, recommendations, and documentation. |
+
+### Opening the project
+
+1. Open [`Excel/Procurement KPI Analysis Dataset.xlsx`](Excel/Procurement%20KPI%20Analysis%20Dataset.xlsx).
+2. Start on the `Dashboard` sheet.
+3. Use the dropdown filters to explore supplier, category, status, and compliance performance.
+4. Review the supporting analysis sheets for detailed results.
+
+The project uses Microsoft Excel for cleaning, formulas, PivotTables, PivotCharts, dashboard development, and reporting.
+
 
 
