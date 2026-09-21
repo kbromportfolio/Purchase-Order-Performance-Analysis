@@ -153,5 +153,25 @@ The workbook is configured to recalculate the KPI formulas when the source data 
 
 **Status:** Stage 8 Completed
 
+## Stage 9 – Dashboard Development
+
+The interactive Excel dashboard was added to the workbook on the `Dashboard` sheet.
+
+### Dashboard features
+
+* KPI cards for purchase orders, negotiated spend, potential savings, savings rate, and compliance rate
+* Supplier spend and indicative savings chart
+* Category defect-rate and compliance-rate chart
+* Order-status mix chart
+* Dropdown filter controls for supplier, category, order status, and compliance
+* Formula-driven helper tables that update the dashboard when filters change
+* Decision-oriented readout panel and print-friendly landscape layout
+
+The dashboard uses potential savings as an indicative measure and does not introduce a late-delivery KPI because no target delivery date is available.
+
+**Status:** Completed
+
+**Next Stage:** Findings and Recommendations
+
 
 
