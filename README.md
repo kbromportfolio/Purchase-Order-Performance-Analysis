@@ -173,5 +173,38 @@ The dashboard uses potential savings as an indicative measure and does not intro
 
 **Next Stage:** Findings and Recommendations
 
+## Stage 10 – Findings and Recommendations
+
+The analysis of 777 purchase orders highlighted the following findings. Potential savings are estimates, not realised savings.
+
+### Key findings
+
+* Negotiated spend is **$45.37 million**, compared with **$49.30 million** original spend, indicating **$3.93 million of potential savings (8.0%)**.
+* **560 orders (72.1%) were delivered**. Pending and partially delivered orders represent **19.8%** of all orders and require follow-up.
+* **Delta_Logistics needs priority review**, with the lowest compliance rate (**60.8%**) and highest defect rate (**10.8%**).
+* **Epsilon_Group performed strongest** on compliance (**98.2%**) and defects (**2.6%**).
+* **Raw Materials** had the highest category defect rate (**6.4%**), followed by Office Supplies (**6.2%**).
+* Overall compliance was **82.4%** and weighted defect rate was **5.6%**. Average delivery duration was **10.8 days**, but no promised delivery date was available.
+
+### Risks and areas requiring investigation
+
+* Review Delta_Logistics purchase orders, defects, compliance failures, and corrective actions.
+* Investigate pending and partially delivered orders by value, age, category, and supplier.
+* Resolve the date validation issue for `PO-00101` before final reporting.
+* Confirm potential savings against contracts and invoices before reporting realised benefits.
+* Add promised delivery dates, invoice values, and corrective-action status to future data extracts.
+
+### Recommendations
+
+1. Place Delta_Logistics on a corrective-action plan with measurable quality and compliance targets.
+2. Assign owners and follow-up dates for pending and partially delivered orders.
+3. Analyse Raw Materials and Office Supplies at supplier and purchase-order level.
+4. Separate negotiated-price opportunity from verified realised savings.
+5. Refresh the dashboard regularly and expand the dataset before drawing time-based conclusions.
+
+**Status:** Completed
+
+**Next Stage:** Documentation and Final Review
+
 
 
